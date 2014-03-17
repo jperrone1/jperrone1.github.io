@@ -60,13 +60,40 @@ stepcarousel.setup({
 
 </script>
 
-	
+
 </head> 
 <body>
   <header>
    
   </header>
-  <h1>Hello, everyone!</h1>
+  <h1>Hello, everyone!</h1> 
+
+<div id="mygallery" class="stepcarousel">
+<div class="belt">
+
+<div class="panel">
+Panel 1 content here...
+</div>
+
+<div class="panel">
+Panel 2 content here...
+</div>
+
+<div class="panel">
+Panel 3 content here...
+</div>
+
+</div>
+</div>
+
+
+<p class="samplebuttons">
+<a href="javascript:stepcarousel.stepBy('mygallery', -1)">Back 1 Panel</a> <a href="javascript:stepcarousel.stepBy('mygallery', 1)" style="margin-left: 80px">Forward 1 Panel</a> <br />
+
+<a href="javascript:stepcarousel.stepTo('mygallery', 1)">To 1st Panel</a> <a href="javascript:stepcarousel.stepBy('mygallery', 2)" style="margin-left: 80px">Forward 2 Panels</a>
+</p>
+
+
   <form>
   	<input type="text" name="email">
   	<input type="submit"
