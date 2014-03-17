@@ -2,3 +2,10 @@ h1 {
 	font-size: 72px;
 	color: blue;
 }
+
+  header {
+      text-align: center;
+      background: url("http://i.imgur.com/A73OrUT.jpg");
+      background-size: cover;
+      color: white;
+    }
