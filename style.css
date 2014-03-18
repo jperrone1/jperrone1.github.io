@@ -1,11 +1,55 @@
 h1 {
 	font-size: 72px;
-	color: blue;
+	color: black;
 }
 
-  header {
-      text-align: center;
-      background: url("http://i.imgur.com/LE6idBN.jpg" title="He&#39;s just this guy, ya know?");
-      background-size: cover;
-      color: white;
+  .photo1 {
+  	position: relative; 
+  	left: 190px; 
+  	top: 40px;
   }
+
+   .photo2 {
+  	position: absolute; 
+  	left: 10px; 
+  	top: 1400px;
+  }
+
+  p {
+  	font-size: 18px;
+  	color: black;
+  }
+
+body {
+        text-align: center;
+        background: url("http://i.imgur.com/LE6idBN.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: helvetica;
+      }
+
+
+.text
+{
+/* text-shadow: 0 0 40px #ffffff; */
+text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 1em white; 
+font-size:20px;
+color:#000000;
+}
+
+.slider {
+  margin: 10px 0;
+  width: 580px; /* Update to your slider width */
+  height: 250px; /* Update to your slider height */
+  position: relative;
+  left: 200px;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0;  
+}
